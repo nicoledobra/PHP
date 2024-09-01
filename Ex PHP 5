@@ -1,0 +1,31 @@
+ENUNCIAT:
+Anem a recordar tot el que ja sabem sobre HTML!
+Dissenya una pàgina web en HTML que contingui un formulari amb un quadre de text on el visitant ha d'ingressar el seu nom, un quadre text de tipus "password" on l'usuari ha d'inserir la seva paraula de pas, i un botó de tipus "submit" per a enviar les dades del formulari al servidor per al seu processament. Suposeu que el mètode d'enviament és POST i que la pàgina que processa les dades del formulari es troba al mateix servidor que la pàgina i s'anomena login.php. El camp de tipus text i el camp de tipus password han de tenir una longitud de de 40 caràcters i un atribut amb el seu nom.
+
+CODE:
+<HTML>
+ <HEAD>
+     <TITLE></TITLE>
+ </HEAD>
+ <BODY>
+  <h1>Access Form</h1>
+  <?php $a=1; ?>
+ </BODY>
+</HTML>
+
+<HTML>
+   <HEAD>
+     <TITLE></TITLE>
+   </HEAD>
+   <BODY>
+      <FORM ACTION="program.php" METHOD=GET>
+          Insert your name: <INPUT TYPE=TEXT NAME="name">
+          <BR/>
+          Insert your password: <INPUT TYPE=TEXT NAME="name">
+          <BR/>
+          <INPUT TYPE=submit value=Send>
+      </FORM>
+   </BODY>
+</HTML>
+
+EXAMPLES:
