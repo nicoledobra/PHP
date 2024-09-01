@@ -1,0 +1,17 @@
+ENUNCIAT:
+Anem a fer el nostre primer codi PHP!
+Dissenya una web (recorda incloure tota l'estructura d'una pàgina HTML!) que, en el seu body, usi PHP per mostrar el text "Hello World!" en negreta.
+
+CODE:
+<HTML>
+ <HEAD>
+    <TITLE>Document title</TITLE>
+ </HEAD>
+<BODY>
+ <h1></h1>
+ <?php echo "<B> Hello World! </B>"
+ ?>
+</BODY>
+</HTML>
+
+EXAMPLES:
