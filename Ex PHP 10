@@ -1,0 +1,15 @@
+Dissenya una web (recorda incloure tota l'estructura d'una pàgina HTML!) que, en el seu body, usi PHP per emmagatzemar en una variable de nom name el 
+text "Babar" i, seguidament, mostra aquesta variable per pantalla en cursiva.
+
+<HTML>
+ <HEAD>
+    <TITLE></TITLE>
+ </HEAD>
+<BODY>
+ <h1></h1>
+ <?php
+	$name = "<i>Barbar</i>";
+	echo $name;
+	?>
+</BODY>
+</HTML> 
