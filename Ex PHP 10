@@ -1,6 +1,8 @@
+ENUNCIAT:
 Dissenya una web (recorda incloure tota l'estructura d'una pàgina HTML!) que, en el seu body, usi PHP per emmagatzemar en una variable de nom name el 
 text "Babar" i, seguidament, mostra aquesta variable per pantalla en cursiva.
 
+CODE:
 <HTML>
  <HEAD>
     <TITLE></TITLE>
