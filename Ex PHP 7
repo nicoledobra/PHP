@@ -1,0 +1,15 @@
+ENUNCIAT:
+Dissenya una web (recorda incloure tota l'estructura d'una pàgina HTML!) que, en el seu body, usi PHP per mostrar per pantalla la informació resultat de cridar la funció phpinfo().
+
+CODE:
+<HTML>
+ <HEAD>
+     <TITLE></TITLE>
+ </HEAD>
+ <BODY>
+  <h1></h1>
+  <?php phpinfo(); ?>
+ </BODY>
+</HTML>
+
+EXAMPLES:
