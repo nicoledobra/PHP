@@ -1,0 +1,47 @@
+ENUNCIAT:
+Dissenya una web que, en el seu body, usi PHP per emmagatzemar en una variable de tipus array el nom dels set dies de la setmana.
+A continuació fes servir el contingut de la variable per mostrar els dies de la setmana que ocupen posicions parells,
+seguits dels que ocupen posicions imparells, tal i com es veu a la següent imatge:
+
+CODE:
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Dies de la Setmana</title>
+</head>
+<body>
+    <h1>Even days</h1>
+	<ul>
+	<?php
+        $dias = ["Tuesady", "Thursday", "Saturday"];
+        foreach($dias as $dia) {
+            echo "<li>$dia</li>";
+        }
+    ?>
+		  </ul>
+
+    <h1>Odd days</h1>
+    <ul>
+    <?php
+        $dias = ["Monday", "Wednesday", "Friday", "Sunday"];
+        foreach($dias as $dia) {
+            echo "<li>$dia</li>";
+        }
+    ?>
+    </ul>
+</body>
+</html>
+
+
+
+EXAMPLES:
+Even days
+Tuesady
+Thursday
+Saturday
+Odd days
+Monday
+Wednesday
+Friday
+Sunday
