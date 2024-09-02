@@ -1,0 +1,23 @@
+ENUNCIAT:
+Dissenya una web que, en el seu body, usi PHP per emmagatzemar en una variable el nom "Babar" i, en una altra, la seva edat (900 anys).
+A continuació fes servir les dues variables per mostrar per pantalla un missatge com el següent:
+
+CODE:
+<HTML>
+ <HEAD>
+    <TITLE></TITLE>
+ </HEAD>
+<BODY>
+ <h1></h1>
+ <?php
+	$name = "<B>Babar</B>";
+	$age = "<i>900</i>";
+	echo "Hi " . $name . "." . "<br>";
+	echo "You can not be " . $age . " years old!";
+	?>
+</BODY>
+</HTML> 
+
+EXAMPLES:
+Hi Babar.
+You can not be 900 years old!
